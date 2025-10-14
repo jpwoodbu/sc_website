@@ -1,6 +1,6 @@
 {
-    "name": "sc_timers",
-    "short_name": "sc_timers",
+    "name": "SC Timers",
+    "short_name": "SC Timers",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
