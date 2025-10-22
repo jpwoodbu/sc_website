@@ -69098,7 +69098,7 @@ $0(){return this.a.d=this.b},
 $S:0}
 A.Eb.prototype={
 H(a){var s=this,r=null
-return new A.FP(A.c([B.AD,A.p8(B.lf,new A.Tm(s,a),!1,r,B.OV),A.p8(B.lf,new A.Tn(s,a),!1,r,B.OR),B.kU,A.p8(B.BR,new A.To(s,a),!1,r,B.OT),A.p8(B.BJ,new A.Tp(s,a),!1,r,B.OW),A.p8(B.BO,new A.Tq(s,a),!1,r,B.OQ),A.p8(B.BP,new A.Tr(a),!1,r,B.OS)],t.p),r)},
+return new A.FP(A.c([B.AD,A.p8(B.lf,new A.Tm(s,a),!1,r,B.OV),A.p8(B.lf,new A.Tn(s,a),!1,r,B.OS),B.kU,A.p8(B.BR,new A.To(s,a),!1,r,B.OT),A.p8(B.BJ,new A.Tp(s,a),!1,r,B.OW),A.p8(B.BO,new A.Tq(s,a),!1,r,B.OQ),A.p8(B.BP,new A.Tr(a),!1,r,B.OR)],t.p),r)},
 kH(a,b){return this.ZO(a,b)},
 ZO(a,b){var s=0,r=A.R(t.H)
 var $async$kH=A.S(function(c,d){if(c===1)return A.O(d,r)
@@ -69155,7 +69155,7 @@ $1(a){return B.yU},
 $S:468}
 A.ok.prototype={
 H(a){var s=null
-return A.Ha(A.t3(s,s,s,!0,s,s,1,s,s,s,!1,s,!1,s,s,s,s,!0,s,s,s,s,s,B.OX,s,s,s,1,s,!0),A.kz(!0,A.pa(A.c([A.cR('0.1.13 - Display version number with link to changelog\n\n0.1.12 - Fix timers getting disrupted when device goes to sleep\n\n0.1.11 - Add "Server error" stopwatch\n\n0.1.10 - First public release\n',A.Y(a).ok.y,s)],t.p),s,s),!1,B.db,!0),s,s,s)}}
+return A.Ha(A.t3(s,s,s,!0,s,s,1,s,s,s,!1,s,!1,s,s,s,s,!0,s,s,s,s,s,B.OX,s,s,s,1,s,!0),A.kz(!0,A.pa(A.c([A.cR('0.1.14 - Fix minutes displaying too high in some cases\n\n0.1.13 - Display version number with link to changelog\n\n0.1.12 - Fix timers getting disrupted when device goes to sleep\n\n0.1.11 - Add "Server error" stopwatch\n\n0.1.10 - First public release\n',A.Y(a).ok.y,s)],t.p),s,s),!1,B.db,!0),s,s,s)}}
 A.wQ.prototype={
 aa(){return new A.AB()}}
 A.AB.prototype={
@@ -69327,27 +69327,26 @@ s===$&&A.a()
 r.r=s
 r.w=!1
 r.Q=B.u},
-H(a){var s,r,q,p,o,n,m,l=this,k=null,j=A.bE()
-if(l.w)j.sc8(0)
-else{s=l.f
+H(a){var s,r,q,p,o,n,m=this,l=null,k=A.bE()
+if(m.w)k.sc8(0)
+else{s=m.f
 s===$&&A.a()
 s=B.h.cY(s.a,1e6)
-r=l.r
+r=m.r
 r===$&&A.a()
-j.sc8(Math.min(s,B.h.cY(r.a,1e6)+1)%60)}q=B.d.i8(J.dv(j.aQ()),2,"0")
-s=l.r
+k.sc8(Math.min(s,B.h.cY(r.a,1e6)+1)%60)}q=B.d.i8(J.dv(k.aQ()),2,"0")
+s=m.r
 s===$&&A.a()
-p=B.h.cY(s.a,6e7)
-o=B.d.i8(B.h.k(!l.w&&J.d(j.aQ(),0)?p+1:p),2,"0")
-if(l.w){s=A.Y(a).ax
+p=B.d.i8(B.h.k(B.h.cY(s.a,6e7)),2,"0")
+if(m.w){s=A.Y(a).ax
 r=s.d
-s=r==null?s.b:r}else if(l.d.b==null){s=A.Y(a).ax
+s=r==null?s.b:r}else if(m.d.b==null){s=A.Y(a).ax
 r=s.Q
-s=r==null?s.y:r}else s=k
-r=l.a
-n=r.e
-m=t.p
-return A.ajf(new A.bM(B.eo,A.h4(A.c([A.oI(A.h4(A.c([n,B.wd,A.oI(A.cR(r.c,A.Y(a).ok.r,k))],m),B.T,B.ae,B.aB)),A.ot(A.c([A.cR(o+":"+q,A.Y(a).ok.d,k),A.h4(A.c([A.oS(k,k,B.ld,k,k,new A.adm(l),k,k,k),A.oS(k,k,B.le,k,k,new A.adn(l),k,k,k),A.oS(k,k,B.lg,k,k,new A.ado(l),k,k,k)],m),B.T,B.dy,B.aB)],m),B.T,B.ae)],m),B.T,B.dz,B.aB),k),s)}}
+s=r==null?s.y:r}else s=l
+r=m.a
+o=r.e
+n=t.p
+return A.ajf(new A.bM(B.eo,A.h4(A.c([A.oI(A.h4(A.c([o,B.wd,A.oI(A.cR(r.c,A.Y(a).ok.r,l))],n),B.T,B.ae,B.aB)),A.ot(A.c([A.cR(p+":"+q,A.Y(a).ok.d,l),A.h4(A.c([A.oS(l,l,B.ld,l,l,new A.adm(m),l,l,l),A.oS(l,l,B.le,l,l,new A.adn(m),l,l,l),A.oS(l,l,B.lg,l,l,new A.ado(m),l,l,l)],n),B.T,B.dy,B.aB)],n),B.T,B.ae)],n),B.T,B.dz,B.aB),l),s)}}
 A.adi.prototype={
 $0(){var s=this.b,r=this.a
 s.r=r.b
@@ -74477,8 +74476,8 @@ B.L3=new A.k(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.OO=new A.d0(B.MF,B.LK,B.MG,B.Nd,B.Lo,B.Lv,B.M2,B.N0,B.Mg,B.NJ,B.KU,B.Le,B.NF,B.NX,B.L3)
 B.OP=new A.eD("SC Timers",null,null,null,null)
 B.OQ=new A.eD("Licenses",null,null,null,null)
-B.OR=new A.eD("Xyxyll's Exec Hangar Status",null,null,null,null)
-B.OS=new A.eD("Version 0.1.13",null,null,null,null)
+B.OR=new A.eD("0.1.14",null,null,null,null)
+B.OS=new A.eD("Xyxyll's Exec Hangar Status",null,null,null,null)
 B.OT=new A.eD("Buy me a coffee",null,null,null,null)
 B.OV=new A.eD("SC Wiki's Exec Hangar Guide",null,null,null,null)
 B.OW=new A.eD("My other apps",null,null,null,null)
